@@ -157,7 +157,7 @@ switch ( choice )
             printf("enter character to be deleted:");
             scanf("\n%c",&item);
           val=delete(&startptr,item);
-          printf("%c deleeeeeeeeeeeeeeeete\n",val);
+          printf("%c delete\n",val);
           printlist ( startptr ) ;
 
 
